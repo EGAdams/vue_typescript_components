@@ -1,0 +1,7 @@
+/*
+ * class MonitorLedData
+ */
+
+class MonitorLedData {
+    
+}
