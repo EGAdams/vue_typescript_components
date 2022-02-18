@@ -53,8 +53,8 @@ export default defineComponent({
 
 <style>
 progress {
-    width: 34.85em;
-    height: 0.2em;
+    width: 36.85em;
+    height: 2.2em;
     border-radius: 0;
     background: black;
 }

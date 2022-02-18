@@ -1,9 +1,7 @@
 <template>
   <div class="app">
     this came from the ninjas repo
-  </div>
-  <div>
-      <progress-timer></progress-timer>
+    <progress-timer v-bind:timer_speed="timer_speed"></progress-timer>
   </div>
 </template>
 
@@ -15,10 +13,13 @@ export default defineComponent({
   name: 'App',
   components: {
       ProgressTimer
-  }
+  },
+  data() {
+      return {
+          timer_speed: 200
+      }
+  },
 });
 </script>
 
-<style>
-
-</style>
+<style></style>
