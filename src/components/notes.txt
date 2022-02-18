@@ -1,5 +1,0 @@
-o overload matches this call.
-  The last overload gave the following error.
-    Type '{ ledText: string; classObject: { "background-color": string; }; }' is not assignable to type 'Prop<unknown, unknown> | null'.
-      Object literal may only specify known properties, and 'ledText' does not exist in type 'Prop<unknown, unknown>'.Vetur(2769)
-

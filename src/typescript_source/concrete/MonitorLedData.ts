@@ -1,7 +1,0 @@
-/*
- * class MonitorLedData
- */
-
-class MonitorLedData {
-    
-}
