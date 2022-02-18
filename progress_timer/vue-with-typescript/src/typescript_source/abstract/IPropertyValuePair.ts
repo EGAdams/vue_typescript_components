@@ -3,8 +3,7 @@
 */
 interface IPropertyValuePair {
     property:   string,
-    value:      string,
-    // id:         string // for the for directive // maybe not...
+    value:      string
 }
 
 export default IPropertyValuePair;
