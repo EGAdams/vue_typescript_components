@@ -4,8 +4,8 @@
 import IMonitorLedData from "../abstract/IMonitorLedData";
 
 class ServerLedData implements IMonitorLedData {
-    constructor() {}
-    ledText: String = "checking command manager status...";
+    constructor() { console.log( "constructing ServerLedData..." )}
+    ledText = "checking server status...";
     classObject: any = {
         "background-color": "yellow"
     }
