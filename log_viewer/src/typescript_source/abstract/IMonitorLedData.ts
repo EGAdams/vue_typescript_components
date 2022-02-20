@@ -3,7 +3,7 @@
 */
 interface IMonitorLedData {
     classObject:    any;
-    ledText:        string;
+    ledText:        String;
 }
 
 export default IMonitorLedData;
