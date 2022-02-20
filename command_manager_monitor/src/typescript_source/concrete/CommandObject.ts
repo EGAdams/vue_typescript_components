@@ -31,4 +31,4 @@ class CommandObject implements ICommandObject {
     }
 }
 
-module.exports = CommandObject;
+export default CommandObject;
